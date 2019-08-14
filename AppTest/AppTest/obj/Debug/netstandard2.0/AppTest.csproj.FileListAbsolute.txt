@@ -1,0 +1,17 @@
+C:\Users\manuel.charris\Documents\U\Movil\projectTest\AppTest\AppTest\AppTest\bin\Debug\netstandard2.0\AppTest.deps.json
+C:\Users\manuel.charris\Documents\U\Movil\projectTest\AppTest\AppTest\AppTest\bin\Debug\netstandard2.0\AppTest.dll
+C:\Users\manuel.charris\Documents\U\Movil\projectTest\AppTest\AppTest\AppTest\bin\Debug\netstandard2.0\ref\AppTest.dll
+C:\Users\manuel.charris\Documents\U\Movil\projectTest\AppTest\AppTest\AppTest\bin\Debug\netstandard2.0\AppTest.pdb
+C:\Users\manuel.charris\Documents\U\Movil\projectTest\AppTest\AppTest\AppTest\obj\Debug\netstandard2.0\AppTest.csprojAssemblyReference.cache
+C:\Users\manuel.charris\Documents\U\Movil\projectTest\AppTest\AppTest\AppTest\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\manuel.charris\Documents\U\Movil\projectTest\AppTest\AppTest\AppTest\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\manuel.charris\Documents\U\Movil\projectTest\AppTest\AppTest\AppTest\obj\Debug\netstandard2.0\AppTest.csproj.CoreCompileInputs.cache
+C:\Users\manuel.charris\Documents\U\Movil\projectTest\AppTest\AppTest\AppTest\obj\Debug\netstandard2.0\AppTest.AssemblyInfoInputs.cache
+C:\Users\manuel.charris\Documents\U\Movil\projectTest\AppTest\AppTest\AppTest\obj\Debug\netstandard2.0\AppTest.AssemblyInfo.cs
+C:\Users\manuel.charris\Documents\U\Movil\projectTest\AppTest\AppTest\AppTest\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\manuel.charris\Documents\U\Movil\projectTest\AppTest\AppTest\AppTest\obj\Debug\netstandard2.0\AppTest.dll
+C:\Users\manuel.charris\Documents\U\Movil\projectTest\AppTest\AppTest\AppTest\obj\Debug\netstandard2.0\ref\AppTest.dll
+C:\Users\manuel.charris\Documents\U\Movil\projectTest\AppTest\AppTest\AppTest\obj\Debug\netstandard2.0\AppTest.pdb
+C:\Users\manuel.charris\Documents\U\Movil\projectTest\AppTest\AppTest\AppTest\obj\Debug\netstandard2.0\Vistas\HomePage.xaml.g.cs
+C:\Users\manuel.charris\Documents\U\Movil\projectTest\AppTest\AppTest\AppTest\obj\Debug\netstandard2.0\Vistas\PageTwo.xaml.g.cs
+C:\Users\manuel.charris\Documents\U\Movil\projectTest\AppTest\AppTest\AppTest\obj\Debug\netstandard2.0\Vistas\Calculator.xaml.g.cs

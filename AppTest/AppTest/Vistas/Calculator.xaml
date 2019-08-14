@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="AppTest.Vistas.Calculator"
+             BackgroundColor="Black"
+             Padding="0">
+
+    <Grid RowSpacing="1" ColumnSpacing="1">
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="2*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+
+        <Label Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="4" TextColor="White" FontSize="60" Margin="10"
+                       HorizontalOptions="End" VerticalOptions="End" x:Name="lblResultado" />
+
+        <Button Clicked="deleteLabel" Style="{StaticResource darkerButton}" Grid.Row="1" Grid.Column="0" Text="C" />
+        <Button Clicked="ButtonNegativeAndPositive_clicked" Style="{StaticResource darkerButton}" Grid.Row="1" Grid.Column="1" Text="-" />
+        <Button Clicked="ButtonDivide_clicked" Style="{StaticResource darkerButton}" Grid.Row="1" Grid.Column="2" Text="/" />
+        <Button Clicked="ButtonMinus_clicked" Style="{StaticResource orangeButton}" Grid.Row="1" Grid.Column="3" Text="-" />
+
+        <Button Clicked="Button9_clicked" Style="{StaticResource plainButton}" Grid.Row="2" Grid.Column="0" Text="9" />
+        <Button Clicked="Button8_clicked" Style="{StaticResource plainButton}" Grid.Row="2" Grid.Column="1" Text="8" />
+        <Button Clicked="Button7_clicked" Style="{StaticResource plainButton}" Grid.Row="2" Grid.Column="2" Text="7" />
+        <Button Clicked="ButtonMultiply_clicked" Style="{StaticResource orangeButton}" Grid.Row="2" Grid.Column="3" Text="*" />
+
+        <Button Clicked="Button6_clicked"  Style="{StaticResource plainButton}" Grid.Row="3" Grid.Column="0" Text="6" />
+        <Button Clicked="Button5_clicked" Style="{StaticResource plainButton}" Grid.Row="3" Grid.Column="1" Text="5" />
+        <Button Clicked="Button4_clicked" Style="{StaticResource plainButton}" Grid.Row="3" Grid.Column="2" Text="4" />
+        <Button Clicked="ButtonPlus_clicked" Style="{StaticResource orangeButton}" Grid.Row="3" Grid.Column="3" Text="+" />
+
+        <Button Clicked="Button3_clicked" Style="{StaticResource plainButton}" Grid.Row="4" Grid.Column="0" Text="3" />
+        <Button Clicked="Button2_clicked" Style="{StaticResource plainButton}" Grid.Row="4" Grid.Column="1" Text="2" />
+        <Button Clicked="Button1_clicked" Style="{StaticResource plainButton}" Grid.Row="4" Grid.Column="2" Text="1" />
+        <Button Clicked="ButtonEquals_clicked" Style="{StaticResource orangeButton}" Grid.Row="4" Grid.Column="3" Text="=" Grid.RowSpan="2" />
+
+        <Button Clicked="Button0_clicked" Style="{StaticResource plainButton}" Grid.Row="5" Grid.Column="0" Text="0" Grid.ColumnSpan="2" />
+        <Button Clicked="ButtonPoint_clicked" Style="{StaticResource plainButton}" Grid.Row="5" Grid.Column="2" Text="." />
+    </Grid>
+</ContentPage>
