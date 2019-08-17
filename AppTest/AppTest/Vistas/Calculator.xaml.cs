@@ -203,6 +203,7 @@ namespace AppTest.Vistas
                         break;
                 }
             }
+            display.Clear();
             result = numberInt.ToString();
             return result;
         }
