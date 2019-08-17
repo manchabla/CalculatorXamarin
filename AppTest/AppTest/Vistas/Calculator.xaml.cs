@@ -55,9 +55,10 @@ namespace AppTest.Vistas
             string operationSign = "+";
             mathOperation = 1;
             number1 = lblResultado.Text;
-            lblResultado.Text = "";
+            lblResultado.Text += operationSign;
             display.Add(number1);
             display.Add(operationSign);
+            lblResultado.Text = "";
         }
 
         private void Button6_clicked(object sender, EventArgs e)
@@ -83,9 +84,10 @@ namespace AppTest.Vistas
             string operationSign = "*";
             mathOperation = 1;
             number1 = lblResultado.Text;
-            lblResultado.Text = "";
+            lblResultado.Text += operationSign;
             display.Add(number1);
             display.Add(operationSign);
+            lblResultado.Text = "";
         }
 
         private void Button9_clicked(object sender, EventArgs e)
@@ -111,9 +113,10 @@ namespace AppTest.Vistas
             string operationSign = "-";
             mathOperation = 1;
             number1 = lblResultado.Text;
-            lblResultado.Text = "";
+            lblResultado.Text += operationSign;
             display.Add(number1);
             display.Add(operationSign);
+            lblResultado.Text = "";
         }
 
         private void ButtonDivide_clicked(object sender, EventArgs e)
@@ -121,9 +124,10 @@ namespace AppTest.Vistas
             string operationSign = "/";
             mathOperation = 1;
             number1 = lblResultado.Text;
-            lblResultado.Text = "";
+            lblResultado.Text += operationSign;
             display.Add(number1);
             display.Add(operationSign);
+            lblResultado.Text = "";
         }
 
         private void ButtonNegativeAndPositive_clicked(object sender, EventArgs e)
